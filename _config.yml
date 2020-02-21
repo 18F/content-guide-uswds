@@ -26,6 +26,23 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Collections organize content and allow us to iterate over each
+collections_dir: sections
+
+collections: 
+  introduction:
+    output: true
+    permalink: /introduction/:path/
+  content_types:
+    output: true
+    permalink: /content-types/:path/
+  our_approach:
+    output: true
+    permalink: /our-approach/:path/
+  our_style:
+    output: true
+    permalink: /our-style/:path/ 
+
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
 
@@ -75,11 +92,6 @@ searchgov:
 # The values below here are more advanced and should only be
 # changed if you know what they do
 ##########################################################################################
-
-collections:
-  pages:
-    output: true
-    permalink: /:path/
 
 permalink: pretty
 

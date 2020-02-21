@@ -2,6 +2,7 @@
 title: Forms
 layout: page
 sidenav: true
+category: content type
 ---
 Many of our projects involve forms — editing existing forms and creating new ones. We’ve compiled the following list of strategies to help you create forms people will find easy (and maybe even enjoyable) to complete. 
 
