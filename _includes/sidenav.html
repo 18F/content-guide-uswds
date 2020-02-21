@@ -1,6 +1,8 @@
 {% comment %} 
 The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
-_layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
+_layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages.
+
+This version of the sidenav loops through each collection in the section folder and renders each markdown page. If you add a new markdown page to an existing folder, it will automatically render. If you add a new folder, you'll need to add it to collections in _config.yml and add a for loop for the collection below.
 {% endcomment %}
 
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
