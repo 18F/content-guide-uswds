@@ -33,4 +33,4 @@ Headlines, page titles, subheads and similar content should follow sentence case
 
 > _Privileges and responsibilities_
 
-See also: information about [optimizing headings](../headings-and-titles/).
+See also: information about [optimizing headings]({{ 'content-types/headings-and-titles/' | relative_url }}).
