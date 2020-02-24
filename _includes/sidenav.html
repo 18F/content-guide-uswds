@@ -5,6 +5,8 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 This version of the sidenav loops through each collection in the section folder and renders each markdown page. If you add a new markdown page to an existing folder, it will automatically render. If you add a new folder, you'll need to add it to collections in _config.yml and add a for loop for the collection below.
 {% endcomment %}
 
+{% assign url = page.url | downcase | split: '/' %}
+
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
@@ -12,7 +14,7 @@ This version of the sidenav loops through each collection in the section folder 
         {% for intro in site.introduction %}
         <ul class="usa-sidenav__sublist">
           <li class="usa-sidenav__item">
-            <a href="{{ intro.url }}">{{ intro.title }}</a>
+            <a href="{{ intro.url | prepend: site.baseurl }}" class="{% if intro.url == page.url %}usa-current{% endif %}">{{ intro.title }}</a>
           </li>
         </ul>  
         {% endfor %}
@@ -22,7 +24,7 @@ This version of the sidenav loops through each collection in the section folder 
         {% for type in site.content_types %}
         <ul class="usa-sidenav__sublist">
           <li class="usa-sidenav__item">
-            <a href="{{ type.url }}">{{ type.title }}</a>
+            <a href="{{ type.url }}" class="{% if type.url == page.url %}usa-current{% endif %}">{{ type.title }}</a>
           </li>
         </ul>  
         {% endfor %}
@@ -32,7 +34,7 @@ This version of the sidenav loops through each collection in the section folder 
         {% for approach in site.our_approach %}
         <ul class="usa-sidenav__sublist">
           <li class="usa-sidenav__item">
-            <a href="{{ approach.url }}">{{ approach.title }}</a>
+            <a href="{{ approach.url }}" class="{% if approach.url == page.url %}usa-current{% endif %}">{{ approach.title }}</a>
           </li>
         </ul>  
         {% endfor %}
@@ -42,7 +44,7 @@ This version of the sidenav loops through each collection in the section folder 
         {% for style in site.our_style %}
         <ul class="usa-sidenav__sublist">
           <li class="usa-sidenav__item">
-            <a href="{{ style.url }}">{{ style.title }}</a>
+            <a href="{{ style.url }}" class="{% if style.url == page.url %}usa-current{% endif %}">{{ style.title }}</a>
           </li>
         </ul>  
         {% endfor %}
