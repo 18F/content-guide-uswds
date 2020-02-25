@@ -12,7 +12,7 @@ This version of the sidenav loops through each collection in the section folder 
       <li class="usa-sidenav__item"><a href="">Introduction</a></li>
         {% for intro in site.introduction %}
         <ul class="usa-sidenav__sublist">
-          <li class="usa-sidenav__item">
+          <li>
             <a href="{{ intro.url | prepend: site.baseurl }}" class="{% if intro.url == page.url %}usa-current{% endif %}">{{ intro.title }}</a>
           </li>
         </ul>  
@@ -22,7 +22,7 @@ This version of the sidenav loops through each collection in the section folder 
       <li class="usa-sidenav__item"><a href="">Content types</a></li>
         {% for type in site.content_types %}
         <ul class="usa-sidenav__sublist">
-          <li class="usa-sidenav__item">
+          <li>
             <a href="{{ type.url }}" class="{% if type.url == page.url %}usa-current{% endif %}">{{ type.title }}</a>
           </li>
         </ul>  
@@ -32,7 +32,7 @@ This version of the sidenav loops through each collection in the section folder 
       <li class="usa-sidenav__item"><a href="">Our approach</a></li>
         {% for approach in site.our_approach %}
         <ul class="usa-sidenav__sublist">
-          <li class="usa-sidenav__item">
+          <li>
             <a href="{{ approach.url }}" class="{% if approach.url == page.url %}usa-current{% endif %}">{{ approach.title }}</a>
           </li>
         </ul>  
@@ -42,7 +42,7 @@ This version of the sidenav loops through each collection in the section folder 
       <li class="usa-sidenav__item"><a href="">Our style</a></li>
         {% for style in site.our_style %}
         <ul class="usa-sidenav__sublist">
-          <li class="usa-sidenav__item">
+          <li>
             <a href="{{ style.url }}" class="{% if style.url == page.url %}usa-current{% endif %}">{{ style.title }}</a>
           </li>
         </ul>  
