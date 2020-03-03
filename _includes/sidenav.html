@@ -1,51 +1,49 @@
 {% comment %} 
 The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
-_layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
+_layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages.
+
+This version of the sidenav loops through each collection in the section folder and renders each markdown page. If you add a new markdown page to an existing folder, it will automatically render. If you add a new folder, you'll need to add it to collections in _config.yml and add a for loop for the collection below.
 {% endcomment %}
+
 
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
-      <li class="usa-sidenav__item">
-        <a href="">Parent link</a>
-      </li>
-      <li class="usa-sidenav__item">
-        <a href="" class="usa-current">Current page</a>
+      <li class="usa-sidenav__item"><a href="">Introduction</a></li>
+        {% for intro in site.introduction %}
         <ul class="usa-sidenav__sublist">
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
+          <li>
+            <a href="{{ intro.url | prepend: site.baseurl }}" class="{% if intro.url == page.url %}usa-current{% endif %}">{{ intro.title }}</a>
           </li>
-          <li class="usa-sidenav__item">
-            <a href="" class="usa-current">Child link</a>
-            <ul class="usa-sidenav__sublist">
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="" class="usa-current">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-            </ul>
+        </ul>  
+        {% endfor %}
+
+      <li class="usa-sidenav__item"><a href="">Content types</a></li>
+        {% for type in site.content_types %}
+        <ul class="usa-sidenav__sublist">
+          <li>
+            <a href="{{ type.url }}" class="{% if type.url == page.url %}usa-current{% endif %}">{{ type.title }}</a>
           </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
+        </ul>  
+        {% endfor %}
+
+      <li class="usa-sidenav__item"><a href="">Our approach</a></li>
+        {% for approach in site.our_approach %}
+        <ul class="usa-sidenav__sublist">
+          <li>
+            <a href="{{ approach.url }}" class="{% if approach.url == page.url %}usa-current{% endif %}">{{ approach.title }}</a>
           </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
+        </ul>  
+        {% endfor %}
+
+      <li class="usa-sidenav__item"><a href="">Our style</a></li>
+        {% for style in site.our_style %}
+        <ul class="usa-sidenav__sublist">
+          <li>
+            <a href="{{ style.url }}" class="{% if style.url == page.url %}usa-current{% endif %}">{{ style.title }}</a>
           </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-        </ul>
-      </li>
-      <li class="usa-sidenav__item">
-        <a href="">Parent link</a>
-      </li>
+        </ul>  
+        {% endfor %}
     </ul>
   </nav>
 </aside>
