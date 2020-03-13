@@ -44,6 +44,10 @@ i.e.
 
 // logo
 
+.usa-logo__text {
+  display: table-cell;
+}
+
 .usa-logo__text::before {
   background-image: asset_url('18f-logo.svg');
   background-size: cover;
@@ -52,6 +56,18 @@ i.e.
   width: 44px;
   display: inline-block;
   content: '';
+}
+
+
+.site-title {
+  vertical-align: top;
+  @include u-margin-top(2);
+}
+
+@include at-media(desktop) {
+  .site-title {
+    @include u-margin-top(0);
+  }
 }
 
 //// Headings
@@ -121,14 +137,4 @@ i.e.
 .footer-logo {
   @include u-margin-right(2);
   text-decoration: none;
-}
-
-.footer-logo__img {
-  vertical-align: top;
-  height: 60px;
-}
-
-.footer-logo__18f {
-  margin-top: 3px;
-  height:52px;
 }
