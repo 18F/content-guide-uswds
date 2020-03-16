@@ -1,4 +1,4 @@
-{% comment %} 
+{% comment %}
 The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
 _layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages.
 
@@ -15,7 +15,7 @@ This version of the sidenav loops through each collection in the section folder 
           <li>
             <a href="{{ intro.url | prepend: site.baseurl }}" class="{% if intro.url == page.url %}usa-current{% endif %}">{{ intro.title }}</a>
           </li>
-        </ul>  
+        </ul>
         {% endfor %}
 
       <li class="usa-sidenav__item"><a href="">Content types</a></li>
@@ -24,7 +24,7 @@ This version of the sidenav loops through each collection in the section folder 
           <li>
             <a href="{{ type.url }}" class="{% if type.url == page.url %}usa-current{% endif %}">{{ type.title }}</a>
           </li>
-        </ul>  
+        </ul>
         {% endfor %}
 
       <li class="usa-sidenav__item"><a href="">Our approach</a></li>
@@ -33,7 +33,7 @@ This version of the sidenav loops through each collection in the section folder 
           <li>
             <a href="{{ approach.url }}" class="{% if approach.url == page.url %}usa-current{% endif %}">{{ approach.title }}</a>
           </li>
-        </ul>  
+        </ul>
         {% endfor %}
 
       <li class="usa-sidenav__item"><a href="">Our style</a></li>
@@ -42,7 +42,7 @@ This version of the sidenav loops through each collection in the section folder 
           <li>
             <a href="{{ style.url }}" class="{% if style.url == page.url %}usa-current{% endif %}">{{ style.title }}</a>
           </li>
-        </ul>  
+        </ul>
         {% endfor %}
     </ul>
   </nav>
