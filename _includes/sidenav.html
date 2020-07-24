@@ -5,7 +5,28 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 This version of the sidenav loops through each collection in the section folder and renders each markdown page. If you add a new markdown page to an existing folder, it will automatically render. If you add a new folder, you'll need to add it to collections in _config.yml and add a for loop for the collection below.
 {% endcomment %}
 
+{% assign collections = site.collections %}
 
+{% comment %}Added, but titles for markdown files are not rendering{% endcomment %}
+<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
+  <nav>
+    <ul class="usa-sidenav">
+      {% for collection in collections %}
+        <li class="usa-sidenav__item"><a href="">{{ collection.title }}</a></li>
+        <ul class="usa-sidenav__sublist">  
+          {% for doc in collection.docs %}
+              <li>
+                <a href="{{ doc.url }}" class="{% if doc.url == page.url %}usa-current{% endif %}">{{ doc.title }}</a>
+              </li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </ul>
+  </nav>
+</aside>
+
+
+{% comment %}
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
@@ -47,3 +68,4 @@ This version of the sidenav loops through each collection in the section folder 
     </ul>
   </nav>
 </aside>
+{% endcomment %}
