@@ -7,7 +7,6 @@ This version of the sidenav loops through each collection in the section folder 
 
 {% assign collections = site.collections | sort: 'sequence' %}
 
-{% comment %}Added, but titles for markdown files are not rendering{% endcomment %}
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
@@ -26,48 +25,3 @@ This version of the sidenav loops through each collection in the section folder 
     </ul>
   </nav>
 </aside>
-
-
-{% comment %}
-<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
-  <nav>
-    <ul class="usa-sidenav">
-      <li class="usa-sidenav__item"><a href="">Introduction</a></li>
-        {% for intro in site.introduction %}
-        <ul class="usa-sidenav__sublist">
-          <li>
-            <a href="{{ intro.url | prepend: site.baseurl }}" class="{% if intro.url == page.url %}usa-current{% endif %}">{{ intro.title }}</a>
-          </li>
-        </ul>
-        {% endfor %}
-
-      <li class="usa-sidenav__item"><a href="">Content types</a></li>
-        {% for type in site.content_types %}
-        <ul class="usa-sidenav__sublist">
-          <li>
-            <a href="{{ type.url | prepend: site.baseurl }}" class="{% if type.url == page.url %}usa-current{% endif %}">{{ type.title }}</a>
-          </li>
-        </ul>
-        {% endfor %}
-
-      <li class="usa-sidenav__item"><a href="">Our approach</a></li>
-        {% for approach in site.our_approach %}
-        <ul class="usa-sidenav__sublist">
-          <li>
-            <a href="{{ approach.url | prepend: site.baseurl }}" class="{% if approach.url == page.url %}usa-current{% endif %}">{{ approach.title }}</a>
-          </li>
-        </ul>
-        {% endfor %}
-
-      <li class="usa-sidenav__item"><a href="">Our style</a></li>
-        {% for style in site.our_style %}
-        <ul class="usa-sidenav__sublist">
-          <li>
-            <a href="{{ style.url | prepend: site.baseurl }}" class="{% if style.url == page.url %}usa-current{% endif %}">{{ style.title }}</a>
-          </li>
-        </ul>
-        {% endfor %}
-    </ul>
-  </nav>
-</aside>
-{% endcomment %}
