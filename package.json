@@ -4,17 +4,16 @@
   "scripts": {
     "build": "bundle exec jekyll build",
     "clean": "bundle exec jekyll clean",
-    "reset": "npx rimraf Gemfile.lock package-lock.json LICENSE.md CONTRIBUTING.md degit.json .git",
+    "reset": "npx rimraf .git",
     "start": "bundle exec jekyll serve",
     "test": "bundle exec htmlproofer _site; npx a11y '_site/**/*.html'"
   },
   "dependencies": {
-    "netlify-cms": "^2.10.23",
-    "npm": "^6.14.7",
-    "uswds": "^2.7.0"
+    "netlify-cms": "^2.10.55",
+    "uswds": "~2.8.0"
   },
   "devDependencies": {
     "a11y": "^0.5.1",
-    "rimraf": "^3.0.0"
+    "rimraf": "^3.0.2"
   }
 }
