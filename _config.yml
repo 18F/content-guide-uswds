@@ -26,19 +26,25 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Collections organize content and allow us to iterate over each
-collections_dir: sections
-
 collections: 
   introduction:
+    title: Introduction
+    sequence: 1
     output: true
     permalink: /introduction/:path/
   content_types:
+    title: Content types
+    sequence: 4
     output: true
     permalink: /content-types/:path/
   our_approach:
+    title: Our approach
+    sequence: 2
     output: true
     permalink: /our-approach/:path/
   our_style:
+    title: Our style
+    sequence: 3
     output: true
     permalink: /our-style/:path/ 
 
