@@ -1,18 +1,8 @@
 ---
+layout: page
+permalink: /about/
 layout: post
 title: About this guide
-permalink: /
-sidenav: overview
-sticky_sidenav: true
-subnav:
-  - text: What this guide is
-    href: '#what-this-guide-is'
-  - text: How to use this guide
-    href: '#how-to-use-this-guide'
-  - text: Reusing this guide
-    href: '#reusing-this-guide-in-other-organizations'
-  - text: References
-    href: '#references'
 ---
 [//]: make it possible to put a class on a ul tag
 {::options parse_block_html="true" /}
@@ -58,61 +48,3 @@ Feel free to [fork this guide](https://help.github.com/articles/fork-a-repo/) on
 ## References
 
 This guide draws on information from many resources. GSA cannot endorse these resources, or their respective authors. GSA employees interested in further reading can access an internal list of [references](https://docs.google.com/document/d/1ZH6TrVBOQvmlUFRKZlFFk182fiOhyaqyZqiTrVcEW4w/edit?folder=18EUSppsHd4O2eKwMiYXtxNd29O2TH31S#heading=h.v2me8g6plb8y).
-
-<!--
-<style type="text/css">
-  .for-discussion {
-    list-style-type: none;
-  }
-
-  .for-discussion::before {
-    content: "To discuss:"
-  }
-
-  .for-discussion li{
-    display: inline;
-  }
-
-  .for-discussion li::after{
-    content: ",";
-  }
-
-  .for-discussion li:last-of-type::after{
-    content: "";
-  }
-
-  .for-discussion a{
-    color: #555;
-  }
-</style>
-
-## Introduction
-
-- [About this guide]({{site.baseurl}}/about/)
-- [License](https://github.com/18F/ux-guide/blob/master/LICENSE.md)
-- [Resources](https://github.com/18F/ux-guide/tree/master/_pages/resources)
-
-## [Our Approach]({{site.baseurl}}/our-approach/)
-
-- [Values and principles]({{site.baseurl}}/our-approach/values-and-principles)
-- [Defining design]({{site.baseurl}}/our-approach/defining-design)
-- [Stay lean]({{site.baseurl}}/our-approach/stay-lean/)
-- [Meet partners where they are]({{site.baseurl}}/our-approach/meet-partners-where-they-are/)
-
-## [Research]({{site.baseurl}}/research/)
-
-<ul>
-  <li><a href="{{site.baseurl}}/research/clarify-the-basics/">Clarify the basics</a></li>
-  <li><a href="{{site.baseurl}}/research/plan/">Plan</a></li>
-  <li><a href="{{site.baseurl}}/research/do">Do</a></li>
-  <li><a href="{{site.baseurl}}/research/make-research-actionable">Make research actionable</a></li>
-  <li><a href="{{site.baseurl}}/research/legal/">Legal</a></li>
-  <li><a href="{{site.baseurl}}/research/privacy/">Privacy</a></li>
-  <li><a href="{{site.baseurl}}/research/bias">Bias</a></li>
-  <li><a href="{{site.baseurl}}/research/ethics">Ethics</a></li>
-</ul>
-
-## [Design]({{site.baseurl}}/design/)
- - [Build a prototype]({{site.baseurl}}/design/build-a-prototype/)
- - [Use a design system]({{site.baseurl}}/design/use-a-design-system)
--->

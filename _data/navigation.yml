@@ -1,0 +1,60 @@
+# _data/navigation.yml
+primary:
+  - text: Overview
+    href: /
+  - text: Our approach
+    href: /our-approach/
+  - text: Research
+    href: /research/
+  - text: Design
+    href: /design/
+
+overview:
+  - text: About this guide
+    href: /
+  - text: License
+    href: /license/
+  - text: Resources
+    href: /resources/
+
+our-approach:
+  - text: Address the user
+    href: /our-approach/address-the-user/
+  - text: Avoid duplication
+    href: /our-approach/avoid-duplication/
+  - text: Be concise
+    href: /our-approach/be-concise/
+  - text: Content principles
+    href: /our-approach/content-principles/
+  - text: Giving and receiving feedback
+    href: /our-approach/giving-and-receiving-feedback/
+  - text: Keep refining
+    href: /our-approach/keep-refining/
+  - text: Make content web-friendly
+    href: /our-approach/make-content-web-friendly/
+  - text: Use plain language
+    href: /our-approach/plain-language/
+
+research:
+  - text: Clarify the basics
+    href: /research/clarify-the-basics/
+  - text: Plan
+    href: /research/plan/
+  - text: Do
+    href: /research/do/
+  - text: Make research actionable
+    href: /research/make-research-actionable/
+  - text: Legal
+    href: /research/legal/
+  - text: Privacy
+    href: /research/privacy/
+  - text: Bias
+    href: /research/bias/
+  - text: Ethics
+    href: /research/ethics/
+
+design:
+  - text: Build a prototype
+    href: /design/build-a-prototype/
+  - text: Use a design system
+    href: /design/use-a-design-system/
