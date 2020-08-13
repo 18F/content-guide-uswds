@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Forms
-permalink: /content-types/forms
+permalink: /content-types/forms/
 sidenav: content-types
 sticky_sidenav: true
 subnav:

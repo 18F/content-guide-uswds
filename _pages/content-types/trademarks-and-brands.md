@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trademarks and brands
-permalink: /content-types/trademarks-and-brands
+permalink: /content-types/trademarks-and-brands/
 sidenav: content-types
 sticky_sidenav: true
 subnav:

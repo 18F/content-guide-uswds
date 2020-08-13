@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Punctuation
-permalink: /our-style/punctuation
+permalink: /our-style/punctuation/
 sidenav: our-style
 sticky_sidenav: true
 subnav:

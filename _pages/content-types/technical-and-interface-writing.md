@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technical and interface writing
-permalink: /content-types/technical-and-interface-writing
+permalink: /content-types/technical-and-interface-writing/
 sidenav: content-types
 sticky_sidenav: true
 subnav:

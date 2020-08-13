@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Capitalization
-permalink: /our-style/capitalization
+permalink: /our-style/capitalization/
 sidenav: our-style
 sticky_sidenav: true
 subnav:

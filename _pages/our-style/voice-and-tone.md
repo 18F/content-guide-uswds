@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Voice and tone
-permalink: /our-style/voice-and-tone
+permalink: /our-style/voice-and-tone/
 sidenav: our-style
 sticky_sidenav: true
 subnav:

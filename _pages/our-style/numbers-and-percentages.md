@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Numbers and percentages
-permalink: /our-style/numbers-and-percentages
+permalink: /our-style/numbers-and-percentages/
 sidenav: our-style
 sticky_sidenav: true
 subnav:

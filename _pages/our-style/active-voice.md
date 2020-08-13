@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Active voice
-permalink: /our-style/active-voice
+permalink: /our-style/active-voice/
 sidenav: our-style
 sticky_sidenav: true
 subnav:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Images
-permalink: /content-types/images
+permalink: /content-types/images/
 sidenav: content-types
 sticky_sidenav: true
 subnav:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Style guides
-permalink: /content-types/style-guides
+permalink: /content-types/style-guides/
 sidenav: content-types
 sticky_sidenav: true
 subnav:
