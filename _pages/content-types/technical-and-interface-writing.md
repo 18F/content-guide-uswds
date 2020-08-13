@@ -15,7 +15,7 @@ At 18F, we often write technical documentation, guides, forms, and interface mes
 
 ## Basics
 
-### Do the hard work to make it simple.
+### Do the hard work to make it simple
 
 Help the reader follow along. Break instructions or processes down into individual steps. Use short, simple sentences with words people use in everyday conversation.
 
@@ -29,7 +29,7 @@ Use:
 
 > In Google Calendar, click **Create**.
 
-### Direct the reader.
+### Direct the reader
 
 Start your sentences with active verbs or clear objectives.
 
