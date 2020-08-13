@@ -59,7 +59,7 @@ our-style:
 
 content-types:
   - text: Build a prototype
-    href: /design/build-a-prototype/
+    href: /content-types/build-a-prototype/
   - text: Forms
     href: /content-types/forms
   - text: Headings and titles
