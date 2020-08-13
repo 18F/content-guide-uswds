@@ -4,10 +4,10 @@ primary:
     href: /
   - text: Our approach
     href: /our-approach/
-  - text: Research
-    href: /research/
-  - text: Design
-    href: /design/
+  - text: Our style
+    href: /our-style/
+  - text: Content types
+    href: /content-types/
 
 overview:
   - text: About this guide
@@ -34,26 +34,30 @@ our-approach:
     href: /our-approach/make-content-web-friendly/
   - text: Use plain language
     href: /our-approach/plain-language/
+  - text: Structure the content
+    href: /our-approach/structure-the-content/
 
-research:
-  - text: Clarify the basics
-    href: /research/clarify-the-basics/
-  - text: Plan
-    href: /research/plan/
-  - text: Do
-    href: /research/do/
-  - text: Make research actionable
-    href: /research/make-research-actionable/
-  - text: Legal
-    href: /research/legal/
-  - text: Privacy
-    href: /research/privacy/
-  - text: Bias
-    href: /research/bias/
-  - text: Ethics
-    href: /research/ethics/
+our-style:
+  - text: Abbreviations and acronyms
+    href: /our-style/abbreviations-and-acronyms
+  - text: Active voice
+    href: /our-style/active-voice
+  - text: Capitalization
+    href: /our-style/capitalization    
+  - text: Inclusive language
+    href: /our-style/inclusive-language
+  - text: Names
+    href: /our-style/names
+  - text: Numbers and percentages
+    href: /our-style/numbers-and-percentages 
+  - text: Punctuation
+    href: /our-style/punctuation 
+  - text: Specific words and phrases
+    href: /our-style/specific-words-and-phrases
+  - text: Voice and tone
+    href: /our-style/voice-and-tone 
 
-design:
+content-types:
   - text: Build a prototype
     href: /design/build-a-prototype/
   - text: Use a design system

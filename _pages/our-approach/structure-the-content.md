@@ -12,7 +12,7 @@ subnav:
     href: '#important-information-first'
   - text: Break up text
     href: '#break-up-text'
-  - text: Don't use FAQs
+  - text: "Don't use FAQs"
     href: '#dont-use-faqs'
 ---
 
