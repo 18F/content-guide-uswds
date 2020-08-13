@@ -60,5 +60,17 @@ our-style:
 content-types:
   - text: Build a prototype
     href: /design/build-a-prototype/
-  - text: Use a design system
-    href: /design/use-a-design-system/
+  - text: Forms
+    href: /content-types/forms
+  - text: Headings and titles
+    href: /content-types/headings-and-titles
+  - text: Images
+    href: /content-types/images
+  - text: Style guides
+    href: /content-types/style-guides
+  - text: Technical and interface writing
+    href: /content-types/technical-and-interface-writing
+  - text: Trademarks and brands
+    href: /content-types/trademarks-and-brands
+  - text: URLs and filenames
+    href: /content-types/urls-and-filenames   
