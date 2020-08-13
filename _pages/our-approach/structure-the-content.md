@@ -12,7 +12,7 @@ subnav:
     href: '#important-information-first'
   - text: Break up text
     href: '#break-up-text'
-  - text: "Don't use FAQs"
+  - text: "Don’t use FAQs"
     href: '#dont-use-faqs'
 ---
 
@@ -26,7 +26,7 @@ Put the most important information in the first two paragraphs. That’s the sec
 
 ## Break up text
 
-Large chunks of text can overwhelm readers. Use subheads and bullet points; they provide clear narrative structure for readers in a hurry. Put information-carrying words at the beginning of the phrase, and use the [active voice](https://pages.18f.gov/content-guide/active-voice/).
+Large chunks of text can overwhelm readers. Use subheads and bullet points; they provide clear narrative structure for readers in a hurry. Put information-carrying words at the beginning of the phrase, and use the [active voice]({{ "/our-style/active-voice" | relative_url }}).
 
 Instead of:
 
