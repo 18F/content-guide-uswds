@@ -32,6 +32,7 @@ theme: uswds-jekyll
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Google Analytics & DAP tracking code for handbook
 google_analytics_ua: UA-48605964-19
