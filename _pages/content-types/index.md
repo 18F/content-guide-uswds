@@ -6,4 +6,4 @@ sidenav: content-types
 sticky_sidenav: true
 ---
 
-This section provides guidance on specific types of content. Create forms that are easy to use. Write headings and titles that make your content more discoverable. Use images effectively. We offer considerations to keep in mind if you develop a content guide, write technical content, refer to trademarks, or create new domains and URLs.
+Sometimes you’re writing specific kinds of content and need help for that particular situation. In this section, we provide tips for how to build forms that are easy to use. How to write headings and titles that make your content more discoverable. How to use images effectively. We offer some considerations you may want to keep in mind if you undertake even more specialized work like developing a content guide, writing technical content, referring to trademarks, or creating new domains and URLs.
